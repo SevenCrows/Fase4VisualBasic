@@ -93,7 +93,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assents\img\5g\5G_logo.jpg" />
+    <Content Include="assents\img\aws\aws_ec2.png" />
     <Content Include="assents\img\aws\aws_logo.png" />
+    <Content Include="assents\img\aws\aws_s3.png" />
+    <Content Include="assents\img\aws\aws_sns.png" />
+    <Content Include="assents\img\aws\podcast_innovacion.jpg" />
+    <Content Include="assents\img\aws\podcast_latam.jpg" />
     <Content Include="assents\img\metadatos\metadato_img.png" />
     <Content Include="assents\img\tensor_flow\tf_logo.png" />
     <Content Include="assents\img\warehouse\dwh_logo.png" />
@@ -103,6 +108,7 @@
     <Content Include="contenido\aws\Informacion.aspx" />
     <Content Include="contenido\aws\Pdf.aspx" />
     <Content Include="contenido\aws\Videos.aspx" />
+    <Content Include="css-scss\audio.css" />
     <Content Include="css-scss\base.css" />
     <Content Include="css-scss\temas.css" />
     <Content Include="css-scss\video.css" />
@@ -189,6 +195,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assents\pdf\aws.pdf" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

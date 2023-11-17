@@ -23,13 +23,13 @@
                     url = 'Videos.aspx';
                     break;
                 case 'sonidos':
-                    url = 'contenido_sonidos.html';
+                    url = 'Audios.aspx';
                     break;
                 case 'texto_pdf':
-                    url = 'contenido_texto_pdf.html';
+                    url = 'Pdf.aspx';
                     break;
                 case 'examen':
-                    url = 'contenido_examen.html';
+                    url = 'Examen.aspx';
                     break;
                 default:
                     break;
@@ -56,7 +56,7 @@
     <!-- Menú superior -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Contenido didáctico UNAD</a>
+            <a class="navbar-brand" href="../../Default.aspx">Contenido didáctico UNAD</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -89,11 +89,11 @@
 
     <!-- Menú lateral -->
     <div class="menu-container">
-        <div class="menu-item" id="texto" onclick="cargarContenido('texto')">Texto</div>
-        <div class="menu-item" id="videos" onclick="cargarContenido('videos')">Videos</div>
-        <div class="menu-item" id="sonidos" onclick="cargarContenido('sonidos')">Sonidos</div>
-        <div class="menu-item" id="texto_pdf" onclick="cargarContenido('texto_pdf')">Texto PDF</div>
-        <div class="menu-item" id="examen" onclick="cargarContenido('examen')">Examen</div>
+        <div class="menu-item" id="texto" onclick="cargarContenido('texto')">Información AWS</div>
+        <div class="menu-item" id="videos" onclick="cargarContenido('videos')">Multimedia</div>
+        <div class="menu-item" id="sonidos" onclick="cargarContenido('sonidos')">Podcast</div>
+        <div class="menu-item" id="texto_pdf" onclick="cargarContenido('texto_pdf')">Manual</div>
+        <div class="menu-item" id="examen" onclick="cargarContenido('examen')">Retos</div>
     </div>
 
     <!-- Contenido dinámico -->

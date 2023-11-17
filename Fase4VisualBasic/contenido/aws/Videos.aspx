@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="mt-4 mb-4 text-center">Aprende sobre AWS</h1>
+        <h1 class="mt-4 mb-4">Aprende sobre AWS</h1>
         <p class="main-text">Descubre más acerca de Amazon Web Services (AWS) a través de estos videos:</p>
 
         <div class="row video-container">

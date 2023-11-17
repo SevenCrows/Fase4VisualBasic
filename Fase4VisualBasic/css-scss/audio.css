@@ -1,0 +1,20 @@
+﻿.category-card {
+    margin-bottom: 20px;
+}
+
+.category-image {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    padding-top: 15px
+}
+
+.audio-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.audio-item {
+    margin-bottom: 10px;
+}

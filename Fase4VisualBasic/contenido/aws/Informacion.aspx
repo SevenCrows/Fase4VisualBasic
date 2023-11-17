@@ -15,7 +15,7 @@
         <!-- Tarjetas para temas -->
         <div class="card-container">
             <div class="card-item">
-                <img src="https://via.placeholder.com/180" alt="Imagen AWS 1" class="card-img">
+                <img src="../../assents/img/aws/aws_s3.png" alt="Imagen AWS 1" class="card-img">
                 <div class="card-content">
                     <div class="tema">
                         <h2>Amazon S3 (Simple Storage Service)</h2>
@@ -40,7 +40,7 @@
                     <h2>Elastic Compute Cloud (EC2)</h2>
                     <p>Elastic Compute Cloud (EC2) es uno de los servicios más populares de Amazon Web Services (AWS). Ofrece una plataforma flexible de computación en la nube que permite a los usuarios alquilar instancias virtuales de servidores para ejecutar aplicaciones. EC2 es altamente escalable, permitiendo a los usuarios aumentar o disminuir su capacidad computacional de manera dinámica según las necesidades. Esto brinda la capacidad de manejar cargas de trabajo variables y optimizar los recursos utilizados.</p>
                 </div>
-                <img src="https://via.placeholder.com/150" alt="Imagen AWS 2" class="card-img">
+                <img src="../../assents/img/aws/aws_ec2.png" alt="Imagen AWS 2" class="card-img">
             </div>
             <div class="card-item">
                 <div class="card-content">
@@ -58,7 +58,7 @@
             <hr>
 
             <div class="card-item">
-                <img src="https://via.placeholder.com/180" alt="Imagen AWS 1" class="card-img">
+                <img src="../../assents/img/aws/aws_sns.png" alt="Imagen AWS 1" class="card-img">
                 <div class="card-content">
                     <div class="tema">
                         <h2>Amazon SNS (Simple Notification Service)</h2>
