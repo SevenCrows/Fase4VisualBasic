@@ -97,12 +97,61 @@
     <Content Include="assents\img\metadatos\metadato_img.png" />
     <Content Include="assents\img\tensor_flow\tf_logo.png" />
     <Content Include="assents\img\warehouse\dwh_logo.png" />
+    <Content Include="contenido\aws\Audios.aspx" />
+    <Content Include="contenido\aws\AwsBase.aspx" />
+    <Content Include="contenido\aws\Examen.aspx" />
+    <Content Include="contenido\aws\Informacion.aspx" />
+    <Content Include="contenido\aws\Pdf.aspx" />
+    <Content Include="contenido\aws\Videos.aspx" />
     <Content Include="css-scss\base.css" />
+    <Content Include="css-scss\temas.css" />
     <Content Include="Default.aspx" />
     <Content Include="assents\img\logo_unad.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="contenido\aws\Audios.aspx.designer.vb">
+      <DependentUpon>Audios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\aws\Audios.aspx.vb">
+      <DependentUpon>Audios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="contenido\aws\AwsBase.aspx.designer.vb">
+      <DependentUpon>AwsBase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\aws\AwsBase.aspx.vb">
+      <DependentUpon>AwsBase.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="contenido\aws\Examen.aspx.designer.vb">
+      <DependentUpon>Examen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\aws\Examen.aspx.vb">
+      <DependentUpon>Examen.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="contenido\aws\Informacion.aspx.designer.vb">
+      <DependentUpon>Informacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\aws\Informacion.aspx.vb">
+      <DependentUpon>Informacion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="contenido\aws\Pdf.aspx.designer.vb">
+      <DependentUpon>Pdf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\aws\Pdf.aspx.vb">
+      <DependentUpon>Pdf.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="contenido\aws\Videos.aspx.designer.vb">
+      <DependentUpon>Videos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\aws\Videos.aspx.vb">
+      <DependentUpon>Videos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>

@@ -32,7 +32,7 @@
                         <a class="nav-link" href="#">Aws Amazon</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">El 5G y la tecnología del futuro</a>
+                        <a class="nav-link" href="#">5G</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Data Warehouse</a>
