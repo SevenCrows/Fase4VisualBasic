@@ -1,0 +1,42 @@
+﻿/* Estilos para el banner */
+.bg-banner {
+    background-color: #ffffff;
+    height: 120px;
+    position: relative;
+}
+
+/* Estilos para la imagen del banner */
+.banner-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+
+/* Estilos para cada tema */
+.tema-container {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.tema-description {
+    margin-bottom: 20px;
+}
+
+.tema-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.btn-tema {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
