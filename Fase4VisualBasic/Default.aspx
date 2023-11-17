@@ -19,26 +19,7 @@
             <a class="navbar-brand" href="#">Contenido didáctico UNAD</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Metadatos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tensor Flow</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Aws Amazon</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">5G</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Data Warehouse</a>
-                    </li>
-                </ul>
-            </div>
+            </button>          
         </div>
     </nav>
 
@@ -103,7 +84,7 @@
                         <h3>AWS Amazon</h3>
                         <p>Explora los servicios en la nube ofrecidos por Amazon Web Services (AWS), comprende su potencial para almacenar datos, alojar sitios web, desarrollar aplicaciones y mucho más.</p>
                     </div>
-                    <a href="#" class="btn-tema">Conoce más</a>
+                    <a href="contenido/aws/AwsBase.aspx" class="btn-tema">Conoce más</a>
                 </div>
             </div>
 

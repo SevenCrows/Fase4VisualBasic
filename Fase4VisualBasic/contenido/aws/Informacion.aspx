@@ -5,36 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Información sobre AWS</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-    <style>       
-        .card-container {
-            padding: 20px;
-        }
-
-        .card-item {
-            margin-bottom: 20px;
-            padding-bottom: 20px;
-            display: flex;
-            align-items: center; 
-        }
-
-        .card-content {
-            flex: 1;
-        }
-       
-        .card-img {
-            max-width: 200px;
-            height: auto;
-            margin-right: 20px;
-        }
-    </style>
+    <link href="../../css-scss/temas.css" rel="stylesheet" />
 </head>
 <body>
     <div class="container">
         <h1 class="mt-4 mb-4">Información sobre Amazon Web Services (AWS)</h1>    
         <p>En esta página encontrarás información detallada sobre diferentes aspectos relacionados con Amazon Web Services (AWS).</p>
 
-        <!-- Tarjetas para temas secundarios -->
+        <!-- Tarjetas para temas -->
         <div class="card-container">
             <div class="card-item">
                 <img src="https://via.placeholder.com/180" alt="Imagen AWS 1" class="card-img">

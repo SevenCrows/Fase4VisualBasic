@@ -20,7 +20,7 @@
                     url = 'Informacion.aspx';
                     break;
                 case 'videos':
-                    url = 'contenido_videos.html';
+                    url = 'Videos.aspx';
                     break;
                 case 'sonidos':
                     url = 'contenido_sonidos.html';

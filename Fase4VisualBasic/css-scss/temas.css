@@ -43,3 +43,24 @@
     height: calc(100vh - 56px);
     border: none;
 }
+
+.card-container {
+    padding: 20px;
+}
+
+.card-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.card-img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+}

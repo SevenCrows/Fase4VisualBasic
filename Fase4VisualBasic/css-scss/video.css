@@ -1,0 +1,33 @@
+﻿body {
+    margin: 20px;
+}
+
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.video-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .video-item iframe {
+        width: 100%;
+    }
+
+.video-description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.main-text {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #333;
+}

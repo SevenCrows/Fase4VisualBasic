@@ -105,6 +105,7 @@
     <Content Include="contenido\aws\Videos.aspx" />
     <Content Include="css-scss\base.css" />
     <Content Include="css-scss\temas.css" />
+    <Content Include="css-scss\video.css" />
     <Content Include="Default.aspx" />
     <Content Include="assents\img\logo_unad.png" />
     <Content Include="Web.config" />
