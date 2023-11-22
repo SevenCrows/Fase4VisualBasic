@@ -93,6 +93,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assents\img\5g\5G_logo.jpg" />
+    <Content Include="assents\img\5g\log1.jpg" />
+    <Content Include="assents\img\5g\log2.jpg" />
+    <Content Include="assents\img\5g\log3.jpg" />
     <Content Include="assents\img\aws\aws_ec2.png" />
     <Content Include="assents\img\aws\aws_logo.png" />
     <Content Include="assents\img\aws\aws_s3.png" />
@@ -102,12 +105,36 @@
     <Content Include="assents\img\metadatos\metadato_img.png" />
     <Content Include="assents\img\tensor_flow\tf_logo.png" />
     <Content Include="assents\img\warehouse\dwh_logo.png" />
+    <Content Include="contenido\5g\Audios.aspx" />
+    <Content Include="contenido\5g\Base.aspx" />
+    <Content Include="contenido\5g\Examen.aspx" />
+    <Content Include="contenido\5g\Informacion.aspx" />
+    <Content Include="contenido\5g\Pdf.aspx" />
+    <Content Include="contenido\5g\Videos.aspx" />
     <Content Include="contenido\aws\Audios.aspx" />
     <Content Include="contenido\aws\AwsBase.aspx" />
     <Content Include="contenido\aws\Examen.aspx" />
     <Content Include="contenido\aws\Informacion.aspx" />
     <Content Include="contenido\aws\Pdf.aspx" />
     <Content Include="contenido\aws\Videos.aspx" />
+    <Content Include="contenido\metadatos\Audios.aspx" />
+    <Content Include="contenido\metadatos\Base.aspx" />
+    <Content Include="contenido\metadatos\Examen.aspx" />
+    <Content Include="contenido\metadatos\Informacion.aspx" />
+    <Content Include="contenido\metadatos\Pdf.aspx" />
+    <Content Include="contenido\metadatos\Videos.aspx" />
+    <Content Include="contenido\tensorflow\Audios.aspx" />
+    <Content Include="contenido\tensorflow\Base.aspx" />
+    <Content Include="contenido\tensorflow\Examen.aspx" />
+    <Content Include="contenido\tensorflow\Informacion.aspx" />
+    <Content Include="contenido\tensorflow\Pdf.aspx" />
+    <Content Include="contenido\tensorflow\Videos.aspx" />
+    <Content Include="contenido\warehouse\Audios.aspx" />
+    <Content Include="contenido\warehouse\Base.aspx" />
+    <Content Include="contenido\warehouse\Examen.aspx" />
+    <Content Include="contenido\warehouse\Informacion.aspx" />
+    <Content Include="contenido\warehouse\Pdf.aspx" />
+    <Content Include="contenido\warehouse\Videos.aspx" />
     <Content Include="css-scss\audio.css" />
     <Content Include="css-scss\base.css" />
     <Content Include="css-scss\temas.css" />
@@ -117,48 +144,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="contenido\aws\Audios.aspx.designer.vb">
-      <DependentUpon>Audios.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="contenido\aws\Audios.aspx.vb">
-      <DependentUpon>Audios.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="contenido\aws\AwsBase.aspx.designer.vb">
-      <DependentUpon>AwsBase.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="contenido\aws\AwsBase.aspx.vb">
-      <DependentUpon>AwsBase.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="contenido\aws\Examen.aspx.designer.vb">
-      <DependentUpon>Examen.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="contenido\aws\Examen.aspx.vb">
-      <DependentUpon>Examen.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="contenido\aws\Informacion.aspx.designer.vb">
-      <DependentUpon>Informacion.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="contenido\aws\Informacion.aspx.vb">
-      <DependentUpon>Informacion.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="contenido\aws\Pdf.aspx.designer.vb">
-      <DependentUpon>Pdf.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="contenido\aws\Pdf.aspx.vb">
-      <DependentUpon>Pdf.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="contenido\aws\Videos.aspx.designer.vb">
-      <DependentUpon>Videos.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="contenido\aws\Videos.aspx.vb">
-      <DependentUpon>Videos.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
@@ -196,6 +181,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assents\pdf\aws.pdf" />
+    <Content Include="assents\pdf\5g.pdf" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

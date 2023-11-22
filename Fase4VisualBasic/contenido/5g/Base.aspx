@@ -1,9 +1,11 @@
-﻿<!DOCTYPE html>
+﻿
+
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AWS</title>
+    <title>5G</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="../../css-scss/base.css" rel="stylesheet" />
     <link href="../../css-scss/temas.css" rel="stylesheet" />    
@@ -66,10 +68,10 @@
                         <a class="nav-link" href="../tensorflow/Base.aspx">Tensor Flow</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Aws Amazon</a>
+                        <a class="nav-link" href="../aws/AwsBase.aspx">Aws Amazon</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../5g/Base.aspx">5G</a>
+                        <a class="nav-link" href="#">5G</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../warehouse/Base.aspx">Data Warehouse</a>
@@ -86,10 +88,10 @@
 
     <!-- Menú lateral -->
     <div class="menu-container">
-        <div class="menu-item" id="texto" onclick="cargarContenido('texto')">Información AWS</div>
+        <div class="menu-item" id="texto" onclick="cargarContenido('texto')">Información</div>
         <div class="menu-item" id="videos" onclick="cargarContenido('videos')">Multimedia</div>
         <div class="menu-item" id="sonidos" onclick="cargarContenido('sonidos')">Podcast</div>
-        <div class="menu-item" id="texto_pdf" onclick="cargarContenido('texto_pdf')">Manual</div>
+        <div class="menu-item" id="texto_pdf" onclick="cargarContenido('texto_pdf')">PDF</div>
         <div class="menu-item" id="examen" onclick="cargarContenido('examen')">Retos</div>
     </div>
 

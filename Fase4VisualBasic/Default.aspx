@@ -39,8 +39,6 @@
                     <p>Nuestro objetivo es ofrecerte contenido didáctico vibrante y emocionante, repleto de información multimedia diversa, incluyendo vídeos, imágenes, sonidos y textos en PDF, todo diseñado para facilitar tu aprendizaje.</p>
                     <p>Únete a nosotros en esta experiencia educativa y conoce a los brillantes integrantes del grupo que hicieron esto posible:</p>
                     <ul>
-                        <li><b>Diego Armando Ortiz Mahecha</b></li>
-                        <li><b>Yenny Consuelo Munoz</b></li>
                         <li><b>Diego Alexander Leon Torres</b></li>
                     </ul>
                 </div>
@@ -60,7 +58,7 @@
                         <h3>Metadatos</h3>
                         <p>Sumérgete en el mundo de la organización y gestión de datos, aprende sobre la importancia de la información descriptiva y su estructuración para optimizar el acceso y la búsqueda eficientes de datos.</p>
                     </div>
-                    <a href="#" class="btn-tema">Conoce más</a>
+                    <a href="contenido/metadatos/Base.aspx" class="btn-tema">Conoce más</a>
                 </div>
             </div>
 
@@ -72,7 +70,7 @@
                         <h3>Tensor Flow</h3>
                         <p>Descubre el fascinante mundo del aprendizaje automático y la inteligencia artificial con Tensor Flow, una poderosa biblioteca de código abierto desarrollada por Google para simplificar la construcción y el entrenamiento de modelos de aprendizaje automático.</p>
                     </div>
-                    <a href="#" class="btn-tema">Conoce más</a>
+                    <a href="contenido/tensorflow/Base.aspx" class="btn-tema">Conoce más</a>
                 </div>
             </div>
 
@@ -98,7 +96,7 @@
                             Adéntrate en el futuro de las comunicaciones móviles y la conectividad con la tecnología 5G, conoce sus impactos, avances y posibles aplicaciones en diversos campos.
                         </p>
                     </div>
-                    <a href="#" class="btn-tema">Conoce más</a>
+                    <a href="contenido/5g/Base.aspx" class="btn-tema">Conoce más</a>
                 </div>
             </div>
 
@@ -110,7 +108,7 @@
                         <h3>Data Warehouse</h3>
                         <p>Aprende sobre la importancia de los almacenes de datos, su estructura, diseño y funcionamiento para la toma de decisiones basadas en información organizada y accesible.</p>
                     </div>
-                    <a href="#" class="btn-tema">Conoce más</a>
+                    <a href="contenido/warehouse/Base.aspx" class="btn-tema">Conoce más</a>
                 </div>
             </div>
         </div>
