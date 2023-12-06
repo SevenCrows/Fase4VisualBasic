@@ -51,41 +51,47 @@
             <div class="container mt-5">
                 <h2>Registro de Usuarios</h2>
                 <asp:ValidationSummary ID="vsErrores" runat="server" CssClass="alert alert-danger" ValidationGroup="registroUsuario" />
+
                 <div class="form-group">
                     <label>Nombres:</label>
                     <asp:TextBox ID="txtNombres" runat="server" CssClass="form-control"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="rfvNombres" runat="server" ControlToValidate="txtNombres" ErrorMessage="Ingrese su nombre" Text="*" CssClass="text-danger" ValidationGroup="registroUsuario" />
                 </div>
+
                 <div class="form-group">
                     <label>Apellidos:</label>
                     <asp:TextBox ID="txtApellidos" runat="server" CssClass="form-control"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="rfvApellidos" runat="server" ControlToValidate="txtApellidos" ErrorMessage="Ingrese sus apellidos" Text="*" CssClass="text-danger" ValidationGroup="registroUsuario" />
                 </div>
+
                 <div class="form-group">
                     <label>Identificación:</label>
                     <asp:TextBox ID="txtIdentificacion" runat="server" CssClass="form-control" TextMode="Number" oninput="limitarLongitud(this, 12)"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="rfvIdentificacion" runat="server" ControlToValidate="txtIdentificacion" ErrorMessage="Ingrese su identificación" Text="*" CssClass="text-danger" ValidationGroup="registroUsuario" />
                 </div>
+
                 <div class="form-group">
                     <label>Teléfono:</label>
                     <asp:TextBox ID="txtTelefono" runat="server" CssClass="form-control" TextMode="Number" oninput="limitarLongitud(this, 10)"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="rfvTelefono" runat="server" ControlToValidate="txtTelefono" ErrorMessage="Ingrese su teléfono" Text="*" CssClass="text-danger" ValidationGroup="registroUsuario" />
                     <asp:RegularExpressionValidator ID="revTelefono" runat="server" ControlToValidate="txtTelefono" ErrorMessage="Formato de teléfono inválido" ValidationExpression="^\d{10}$" Text="*" CssClass="text-danger" ValidationGroup="registroUsuario" />
                 </div>
+
                 <div class="form-group">
                     <label>Usuario:</label>
                     <asp:TextBox ID="txtUsuario" runat="server" CssClass="form-control"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="rfvUsuario" runat="server" ControlToValidate="txtUsuario" ErrorMessage="Ingrese un usuario" Text="*" CssClass="text-danger" ValidationGroup="registroUsuario" />
                 </div>
+
                 <div class="form-group">
                     <label>Contraseña:</label>
                     <asp:TextBox ID="txtContraseña" runat="server" TextMode="Password" CssClass="form-control"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="rfvContraseña" runat="server" ControlToValidate="txtContraseña" ErrorMessage="Ingrese una contraseña" Text="*" CssClass="text-danger" ValidationGroup="registroUsuario" />
                 </div>
-                <div class="form-group">
-                    <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" CssClass="btn btn-primary" />
-                </div>
 
+                <div class="form-group">
+                    <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" CssClass="btn btn-primary" CausesValidation="true" ValidationGroup="registroUsuario" />
+                </div>
 
 
                 <hr />
