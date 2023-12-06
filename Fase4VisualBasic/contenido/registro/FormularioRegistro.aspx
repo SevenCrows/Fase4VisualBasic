@@ -28,7 +28,7 @@
                         <a class="nav-link" href="../tensorflow/Base.aspx">Tensor Flow</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Aws Amazon</a>
+                        <a class="nav-link" href="../aws/AwsBase.aspx">Aws Amazon</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../5g/Base.aspx">5G</a>
