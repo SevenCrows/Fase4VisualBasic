@@ -123,6 +123,7 @@
     <Content Include="contenido\metadatos\Informacion.aspx" />
     <Content Include="contenido\metadatos\Pdf.aspx" />
     <Content Include="contenido\metadatos\Videos.aspx" />
+    <Content Include="contenido\registro\FormularioRegistro.aspx" />
     <Content Include="contenido\tensorflow\Audios.aspx" />
     <Content Include="contenido\tensorflow\Base.aspx" />
     <Content Include="contenido\tensorflow\Examen.aspx" />
@@ -144,6 +145,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="contenido\registro\FormularioRegistro.aspx.designer.vb">
+      <DependentUpon>FormularioRegistro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\registro\FormularioRegistro.aspx.vb">
+      <DependentUpon>FormularioRegistro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
