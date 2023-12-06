@@ -26,7 +26,7 @@
                     url = 'Pdf.aspx';
                     break;
                 case 'examen':
-                    url = 'Examen.aspx';
+                    url = 'ValidacionDatos.aspx';
                     break;
                 default:
                     break;

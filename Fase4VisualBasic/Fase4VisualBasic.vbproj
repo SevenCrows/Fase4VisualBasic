@@ -113,9 +113,10 @@
     <Content Include="contenido\5g\Videos.aspx" />
     <Content Include="contenido\aws\Audios.aspx" />
     <Content Include="contenido\aws\AwsBase.aspx" />
-    <Content Include="contenido\aws\Examen.aspx" />
+    <Content Include="contenido\aws\Evaluacion.aspx" />
     <Content Include="contenido\aws\Informacion.aspx" />
     <Content Include="contenido\aws\Pdf.aspx" />
+    <Content Include="contenido\aws\ValidacionDatos.aspx" />
     <Content Include="contenido\aws\Videos.aspx" />
     <Content Include="contenido\metadatos\Audios.aspx" />
     <Content Include="contenido\metadatos\Base.aspx" />
@@ -145,6 +146,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="contenido\aws\Evaluacion.aspx.designer.vb">
+      <DependentUpon>Evaluacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\aws\Evaluacion.aspx.vb">
+      <DependentUpon>Evaluacion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="contenido\aws\ValidacionDatos.aspx.designer.vb">
+      <DependentUpon>ValidacionDatos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\aws\ValidacionDatos.aspx.vb">
+      <DependentUpon>ValidacionDatos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="contenido\registro\FormularioRegistro.aspx.designer.vb">
       <DependentUpon>FormularioRegistro.aspx</DependentUpon>
     </Compile>
